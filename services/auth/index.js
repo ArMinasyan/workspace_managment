@@ -1,3 +1,4 @@
 module.exports={
-  signIn:require('./signin.service')
+  signIn:require('./signin.service'),
+  signUp:require('./signup.service')
 }

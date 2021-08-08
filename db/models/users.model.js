@@ -7,7 +7,8 @@ module.exports = ()=>{
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
-    }, fullName: {
+    },
+    fullName: {
       type: DataTypes.STRING,
       allowNull: false,
     },
